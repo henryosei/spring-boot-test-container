@@ -22,4 +22,6 @@ public class HomepageController {
         customers.forEach(c -> logger.info("Found a customer: {}", c));
         return customers;
     }
+
+
 }
